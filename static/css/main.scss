@@ -1,0 +1,124 @@
+    * {
+  font-family: sans-serif; /* Change your font family */
+}
+
+
+// map design
+.mapdiv {
+    padding-top: 8vh;
+    padding: 8vh 4vw 0px 4vw;
+    // background: radial-gradient(#aa1a27, #040216);
+    background-color: gainsboro;
+
+  a:nth-child(odd) {
+    //   fill: rgb(218, 34, 17);
+      fill: black;
+      stroke: rgba(252, 252, 252, 0.863);
+      stroke-width: 2px;
+      transition: fill 0.3s;
+  }
+  a:nth-child(even) {
+    //   fill: rgb(112, 14, 30);
+    fill: black;
+      stroke: rgba(252, 252, 252, 0.863);
+      stroke-width: 2px;
+      transition: fill 0.3s;
+  }
+  a:nth-child(3n+0) {
+    //   fill: rgb(185, 37, 62);
+    fill: black;
+      stroke: rgba(252, 252, 252, 0.863);
+      stroke-width: 2px;
+      transition: fill 0.3s;
+  }
+  
+
+  path:hover {
+      fill: black;       
+  }
+}
+
+
+.cc{
+  // clip-path: polygon(0 0, 100% 0%, 100% 40%, 91% 84%, 70% 100%, 0 95%, 13% 40%);
+  // clip-path: polygon(0 0, 100% 3%, 90% 22%, 91% 84%, 70% 100%, 0 95%, 9% 34%);
+
+   background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// table designing
+section{
+
+    .content-table {
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: auto;
+        // min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+      
+      .content-table thead tr {
+        /* background-color: #bb3758; */
+        color: #ffffff;
+        color: black;
+        text-align: left;
+        font-weight: bold;
+      }
+      
+      .content-table th,
+      .content-table td {
+        padding: 12px 15px;
+      }
+      
+      .content-table tbody tr {
+        border-bottom: 1px solid #dddddd;
+      }
+      
+      .content-table tbody tr:nth-of-type(even) {
+        background-color: #f3f3f3;
+      }
+      
+      .content-table tbody tr:last-of-type {
+        /* border-bottom: 2px solid #b65072; */
+      }
+      
+      .content-table tbody tr.active-row {
+        font-weight: bold;
+        color: #cc5fb1;
+      }
+      
+      th:nth-child(2),td:nth-child(2){
+          background-color: rgba(245, 174, 185,0.5);
+      }
+      th:nth-child(3),td:nth-child(3){
+          background-color: rgba(143, 241, 151, 0.5);
+      }
+      th:nth-child(4),td:nth-child(4){
+          background-color: rgba(250, 238, 126, 0.5);
+      }
+}

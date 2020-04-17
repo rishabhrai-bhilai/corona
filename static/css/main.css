@@ -1,0 +1,95 @@
+* {
+  font-family: sans-serif;
+  /* Change your font family */
+}
+
+.mapdiv {
+  padding-top: 8vh;
+  padding: 8vh 4vw 0px 4vw;
+  background-color: gainsboro;
+}
+
+.mapdiv a:nth-child(odd) {
+  fill: black;
+  stroke: rgba(252, 252, 252, 0.863);
+  stroke-width: 2px;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.mapdiv a:nth-child(even) {
+  fill: black;
+  stroke: rgba(252, 252, 252, 0.863);
+  stroke-width: 2px;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.mapdiv a:nth-child(3n+0) {
+  fill: black;
+  stroke: rgba(252, 252, 252, 0.863);
+  stroke-width: 2px;
+  -webkit-transition: fill 0.3s;
+  transition: fill 0.3s;
+}
+
+.mapdiv path:hover {
+  fill: black;
+}
+
+.cc {
+  background-color: black;
+}
+
+section .content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: auto;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+section .content-table thead tr {
+  /* background-color: #bb3758; */
+  color: #ffffff;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+section .content-table th,
+section .content-table td {
+  padding: 12px 15px;
+}
+
+section .content-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+section .content-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+section .content-table tbody tr:last-of-type {
+  /* border-bottom: 2px solid #b65072; */
+}
+
+section .content-table tbody tr.active-row {
+  font-weight: bold;
+  color: #cc5fb1;
+}
+
+section th:nth-child(2), section td:nth-child(2) {
+  background-color: rgba(245, 174, 185, 0.5);
+}
+
+section th:nth-child(3), section td:nth-child(3) {
+  background-color: rgba(143, 241, 151, 0.5);
+}
+
+section th:nth-child(4), section td:nth-child(4) {
+  background-color: rgba(250, 238, 126, 0.5);
+}
+/*# sourceMappingURL=main.css.map */
